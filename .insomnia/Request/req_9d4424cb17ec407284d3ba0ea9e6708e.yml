@@ -1,0 +1,26 @@
+_id: req_9d4424cb17ec407284d3ba0ea9e6708e
+authentication: {}
+body: {}
+created: 1576677997163
+description: ""
+headers:
+  - description: ""
+    id: pair_b34688935af1497d9c768b08a950e5e3
+    name: Authorization
+    value: "{% response 'body', 'req_32ad02c8ccba4625b4f0cb9d7c331215',
+      'b64::JC5oZWFkZXJzLkF1dGhvcml6YXRpb24=::46b', 'never' %}"
+isPrivate: false
+metaSortKey: -1576624928375
+method: GET
+modified: 1588666520935
+name: 2 - Validate Token
+parameters: []
+parentId: fld_7584024fce6a4b18aac937107f3a67b1
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/oidcIntrospection"

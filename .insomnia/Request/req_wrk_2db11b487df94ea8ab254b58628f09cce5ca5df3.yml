@@ -1,0 +1,24 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09cce5ca5df3
+authentication: {}
+body: {}
+created: 1588736633708
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+isPrivate: false
+metaSortKey: -1588736633708
+method: GET
+modified: 1591708170381
+name: View Consumer
+parameters: []
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/consumers/{{ consumer_name_or_id }}"

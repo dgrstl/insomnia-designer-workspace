@@ -1,0 +1,64 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09cc2e754048
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "destinations": [
+        "string"
+      ],
+      "sources": [
+        "string"
+      ],
+      "snis": [
+        "string"
+      ],
+      "name": "my-route",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "methods": [
+        "string"
+      ],
+      "hosts": [
+        "string"
+      ],
+      "paths": [
+        "string"
+      ],
+      "https_redirect_status_code": 426,
+      "regex_priority": 0,
+      "strip_path": true,
+      "preserve_host": true,
+      "tags": [
+        "string"
+      ],
+      "service": {
+        "id": "fc73f2af-890d-4f9b-8363-af8945001f7f",
+        "name": "string"
+      }
+    }
+created: 1588736633724
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1588736633724
+method: POST
+modified: 1591708170465
+name: Create Route
+parameters: []
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/routes"

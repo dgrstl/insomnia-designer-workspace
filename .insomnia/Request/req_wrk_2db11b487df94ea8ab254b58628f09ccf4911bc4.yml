@@ -1,0 +1,31 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09ccf4911bc4
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": "string"
+    }
+created: 1588736633686
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1588736633686
+method: POST
+modified: 1591708170282
+name: Create Certificate
+parameters: []
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/certificates"

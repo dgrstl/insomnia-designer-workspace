@@ -1,0 +1,24 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09cc1171b237
+authentication: {}
+body: {}
+created: 1588736633713
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+isPrivate: false
+metaSortKey: -1588736633713
+method: DELETE
+modified: 1591708170409
+name: Delete Service by Route name / id
+parameters: []
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/routes/{{ route_name_or_id }}/service"

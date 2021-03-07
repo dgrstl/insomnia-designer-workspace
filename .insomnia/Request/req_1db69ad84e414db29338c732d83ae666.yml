@@ -1,0 +1,26 @@
+_id: req_1db69ad84e414db29338c732d83ae666
+authentication: {}
+body: {}
+created: 1584739483460
+description: ""
+headers:
+  - description: ""
+    id: pair_b34688935af1497d9c768b08a950e5e3
+    name: Authorization
+    value: "{% response 'body', 'req_60cfe21ca13f4bfd8eb95c56977d25b1',
+      'b64::JC5oZWFkZXJzLkF1dGhvcml6YXRpb24=::46b', 'never' %}"
+isPrivate: false
+metaSortKey: -1584739392600
+method: GET
+modified: 1585770685442
+name: 2 - Validate Token
+parameters: []
+parentId: fld_6524a6164c1748e3be14f6a31f0c826b
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/jwtSigner/anything"

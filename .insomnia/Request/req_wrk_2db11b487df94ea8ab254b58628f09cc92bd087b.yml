@@ -1,0 +1,42 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09cc92bd087b
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "my-service",
+      "retries": 0,
+      "connect_timeout": "60000",
+      "write_timeout": "60000",
+      "read_timeout": "60000",
+      "tags": [
+        "string"
+      ],
+      "client_certificate": {
+        "id": "string"
+      },
+      "url": "http://example.com/some_api"
+    }
+created: 1588736633895
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1588736633895
+method: POST
+modified: 1591708170560
+name: Create Service
+parameters: []
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/services"

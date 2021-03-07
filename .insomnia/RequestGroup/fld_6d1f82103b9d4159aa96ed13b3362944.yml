@@ -1,0 +1,10 @@
+_id: fld_6d1f82103b9d4159aa96ed13b3362944
+created: 1578158518195
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1578158518195
+modified: 1578158518195
+name: Kong Demo Environment
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+type: RequestGroup

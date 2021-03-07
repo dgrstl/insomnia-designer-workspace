@@ -1,0 +1,29 @@
+_id: req_462fb94271d34f0aa5227b4919fe560e
+authentication: {}
+body: {}
+created: 1579792900555
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1575136011458
+method: GET
+modified: 1579886758085
+name: Get health stats for this Kong cluster
+parameters:
+  - disabled: false
+    id: pair_58aceb170555444683fb629970c3de1d
+    name: interval
+    value: minutes
+  - disabled: false
+    id: pair_bcfa85c7fbfe4cfa824ae768118d7362
+    name: start_ts
+    value: "1574380800"
+parentId: fld_5fba7a90c73945889c4faf26f8efdf0e
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ admin_port  }}/vitals/cluster"

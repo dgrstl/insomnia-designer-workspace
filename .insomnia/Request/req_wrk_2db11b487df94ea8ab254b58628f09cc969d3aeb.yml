@@ -1,0 +1,24 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09cc969d3aeb
+authentication: {}
+body: {}
+created: 1588736633899
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+isPrivate: false
+metaSortKey: -1588736633899
+method: GET
+modified: 1591708170578
+name: List Tags by Tag Name
+parameters: []
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/tags/{{ tag }}"

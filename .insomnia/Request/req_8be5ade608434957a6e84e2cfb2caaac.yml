@@ -1,0 +1,31 @@
+_id: req_8be5ade608434957a6e84e2cfb2caaac
+authentication: {}
+body: {}
+created: 1579792920473
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1575136011436
+method: GET
+modified: 1579809391100
+name: 2-Vitals-Consumer-Requests
+parameters:
+  - disabled: false
+    id: pair_ee934dcd6ecf45cd9222c8cb5c6117b0
+    name: interval
+    value: minutes
+  - description: ""
+    id: pair_918fd936b9364cc382faa146d60021ef
+    name: ""
+    value: ""
+parentId: fld_f8047fff0aa1462b8d4c37728bb83780
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ admin_port  }}/vitals/consumers/{% response
+  'body', 'req_99c9260901de4baaada595497d9cf664', 'b64::JC5pZA==::46b', 'never'
+  %}/cluster"

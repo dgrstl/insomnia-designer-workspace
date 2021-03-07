@@ -1,0 +1,35 @@
+_id: req_7fee51225f834d66bd436acea157638e
+authentication: {}
+body: {}
+created: 1582040988072
+description: ""
+headers:
+  - description: ""
+    disabled: false
+    id: pair_c348cb193e184b8f8c8a1157db74df8f
+    name: apikey
+    value: gold
+  - description: ""
+    disabled: true
+    id: pair_c2fba41404d54ac8b67eebca3049db10
+    name: ""
+    value: ""
+isPrivate: false
+metaSortKey: -1581483916025.5
+method: GET
+modified: 1588778881738
+name: Immunity-Alert-High
+parameters:
+  - description: ""
+    id: pair_2ee852263c514a3a909b678a9683c8e4
+    name: UnknownParam
+    value: BadGuy
+parentId: fld_d62fff05a5994507b83dff4be64240db
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingFollowRedirects: global
+settingRebuildPath: false
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port }}/brain/albums"

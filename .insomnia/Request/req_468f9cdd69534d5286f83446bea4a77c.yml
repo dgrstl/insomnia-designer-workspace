@@ -1,0 +1,29 @@
+_id: req_468f9cdd69534d5286f83446bea4a77c
+authentication: {}
+body: {}
+created: 1579792900553
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1575136011453
+method: GET
+modified: 1579886771158
+name: Get health stats for all nodes
+parameters:
+  - disabled: false
+    id: pair_d46d31c9f38a45fca7aaa0ea38b1e80d
+    name: interval
+    value: minutes
+  - disabled: false
+    id: pair_9a1c24f1eb404281b4941c626942c221
+    name: start_ts
+    value: "1574380800"
+parentId: fld_5fba7a90c73945889c4faf26f8efdf0e
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ admin_port  }}/vitals/nodes"

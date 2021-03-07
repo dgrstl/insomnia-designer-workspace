@@ -1,0 +1,24 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09cca7fa638b
+authentication: {}
+body: {}
+created: 1588736633678
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+isPrivate: false
+metaSortKey: -1588736633678
+method: GET
+modified: 1591708170273
+name: List Services associated to a specific Certificate
+parameters: []
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/certificates/{{ certificate_name_or_id }}/services"

@@ -1,0 +1,21 @@
+_id: req_0531015b4a264907a551b1f052f42954
+authentication: {}
+body: {}
+created: 1579790565314
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1576582409702.1406
+method: GET
+modified: 1579793079478
+name: 1-Get-Service-ID
+parameters: []
+parentId: fld_c488298fbe6845f68d784e667fdc5cae
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ admin_port  }}/services/combined"

@@ -1,0 +1,21 @@
+_id: req_8198aa9ad2b049649bcfc55009c421fe
+authentication: {}
+body: {}
+created: 1587309044107
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1576614180866.5
+method: GET
+modified: 1587309058928
+name: Azure Function
+parameters: []
+parentId: fld_be1a88a0db454554a0a698ac06c3f5ac
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/azureFunction?name=Demo"

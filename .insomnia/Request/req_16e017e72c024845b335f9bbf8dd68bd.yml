@@ -1,0 +1,21 @@
+_id: req_16e017e72c024845b335f9bbf8dd68bd
+authentication: {}
+body: {}
+created: 1576620556564
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1576620556567
+method: GET
+modified: 1578154120949
+name: Caching
+parameters: []
+parentId: fld_1fb0046cbcb9458d97dfe7d5a190f036
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/caching"

@@ -1,0 +1,30 @@
+_id: req_2a489a2d1beb4c64b1c9ffb6aa19cd1b
+authentication:
+  token: ""
+  type: bearer
+body:
+  mimeType: application/graphql
+  text: '{"query":"query {  \n  kong: organization(login: \"kong\")
+    {\n    description\n    location\n    repository(name: \"se-tools\")
+    {\n        description\n    }\n  }\n }"}'
+created: 1576623214068
+description: ""
+headers:
+  - id: pair_55df07b6f88c4c878e7d16fc7c46d565
+    name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1576620556617
+method: POST
+modified: 1587272203813
+name: GraphQL
+parameters: []
+parentId: fld_1fb0046cbcb9458d97dfe7d5a190f036
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/graphql"

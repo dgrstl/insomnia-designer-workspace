@@ -1,0 +1,30 @@
+_id: req_7a3ed75938f44fad82a23865c83ddfcb
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"client_id":"i53jOpZ7hBvXKcQaO38nhpamUXRgm1S8",
+    	"client_secret":"cFVlIlOh0ZTBgYz3sMoNVH2vVsxrDdWT",
+    	"grant_type":"client_credentials"
+    }
+created: 1587309531840
+description: ""
+headers:
+  - name: content-type
+    value: application/json
+isPrivate: false
+metaSortKey: -1587309531840
+method: POST
+modified: 1587309535687
+name: App Registration Request Token
+parameters: []
+parentId: fld_679b6ac0ab8a4c809ed5c48fbf839395
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: https://localhost:8443/httpbin/oauth2/token

@@ -1,0 +1,24 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09ccf4492949
+authentication: {}
+body: {}
+created: 1588736633680
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+isPrivate: false
+metaSortKey: -1588736633680
+method: DELETE
+modified: 1591708170275
+name: Delete Certificate
+parameters: []
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/certificates/{{ certificate_name_or_id }}"

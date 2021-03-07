@@ -1,0 +1,29 @@
+_id: req_614e0d6e852a4388a9b74dfa6cc1cefa
+authentication: {}
+body: {}
+created: 1576621240711
+description: ""
+headers:
+  - description: ""
+    id: pair_0503e49b4ce344a2bc7d568c2418f03f
+    name: apikey
+    value: acl21
+  - description: ""
+    id: pair_040e8e0e86d040f5a90df43f1e34cfe0
+    name: ""
+    value: ""
+isPrivate: false
+metaSortKey: -1575579017046.125
+method: GET
+modified: 1578326805789
+name: ACL - No Auth
+parameters: []
+parentId: fld_cb2003e20d5549acae06677939715cf1
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/acl"

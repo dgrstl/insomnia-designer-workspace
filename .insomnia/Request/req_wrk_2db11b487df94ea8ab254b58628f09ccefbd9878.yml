@@ -1,0 +1,25 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09ccefbd9878
+authentication: {}
+body: {}
+created: 1588736633673
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+isPrivate: false
+metaSortKey: -1588736633673
+method: DELETE
+modified: 1591708170264
+name: Delete Service by Certificate name / id
+parameters: []
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/certificates/{{ certificate_name_or_id }}/services/{{
+  service_name_or_id }}"

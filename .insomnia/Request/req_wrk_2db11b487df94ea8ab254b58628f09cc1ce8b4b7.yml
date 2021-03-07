@@ -1,0 +1,25 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09cc1ce8b4b7
+authentication: {}
+body: {}
+created: 1588736633648
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+isPrivate: false
+metaSortKey: -1588736633648
+method: DELETE
+modified: 1591708170196
+name: /upstreams/{upstream_name_or_id}/targets/{target_host_or_id}
+parameters: []
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/upstreams/{{ upstream_name_or_id }}/targets/{{
+  target_host_or_id }}"

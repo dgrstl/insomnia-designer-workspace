@@ -1,0 +1,31 @@
+_id: req_5fed9924c8b14d4295d0694518deb531
+authentication: {}
+body: {}
+created: 1581989159343
+description: ""
+headers:
+  - description: ""
+    disabled: true
+    id: pair_0503e49b4ce344a2bc7d568c2418f03f
+    name: apikey
+    value: silver
+  - description: ""
+    disabled: true
+    id: pair_040e8e0e86d040f5a90df43f1e34cfe0
+    name: apikey
+    value: gold
+isPrivate: false
+metaSortKey: -1575458839322.5625
+method: GET
+modified: 1581989212214
+name: ACL - GoldFreeSilver
+parameters: []
+parentId: fld_cb2003e20d5549acae06677939715cf1
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/goldSilverFree"

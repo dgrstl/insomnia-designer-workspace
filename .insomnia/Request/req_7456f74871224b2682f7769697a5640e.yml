@@ -1,0 +1,25 @@
+_id: req_7456f74871224b2682f7769697a5640e
+authentication: {}
+body: {}
+created: 1588246907349
+description: ""
+headers:
+  - description: ""
+    id: pair_4283c46143494d16afa5143fbe2d348c
+    name: x-custom-auth
+    value: authenticated
+isPrivate: false
+metaSortKey: -1587778200014
+method: GET
+modified: 1588246932815
+name: preFunctionAuth-Header
+parameters: []
+parentId: fld_8579448854f742c5979f4fe1e4cce3fb
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingFollowRedirects: global
+settingRebuildPath: false
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port }}/preFunctionAuth"

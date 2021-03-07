@@ -1,0 +1,65 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09ccda385820
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "destinations": [
+        "string"
+      ],
+      "sources": [
+        "string"
+      ],
+      "snis": [
+        "string"
+      ],
+      "name": "my-route",
+      "protocols": [
+        "http",
+        "https"
+      ],
+      "methods": [
+        "string"
+      ],
+      "hosts": [
+        "string"
+      ],
+      "paths": [
+        "string"
+      ],
+      "https_redirect_status_code": 426,
+      "regex_priority": 0,
+      "strip_path": true,
+      "preserve_host": true,
+      "tags": [
+        "string"
+      ],
+      "service": {
+        "id": "fc73f2af-890d-4f9b-8363-af8945001f7f",
+        "name": "string"
+      }
+    }
+created: 1588736633730
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1588736633730
+method: PUT
+modified: 1591708170492
+name: Create or Update Route by Service
+parameters: []
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/services/{{ service_name_or_id }}/routes/{{
+  route_name_or_id }}"

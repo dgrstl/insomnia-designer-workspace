@@ -1,0 +1,21 @@
+_id: req_2e628e2cb1174b74b88c97a4663994d3
+authentication: {}
+body: {}
+created: 1578154572437
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1576552763771.2812
+method: GET
+modified: 1578154629415
+name: Basic Auth - 401
+parameters: []
+parentId: fld_15075dd1ceee4bf5829e9a276687a707
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/basicAuth"

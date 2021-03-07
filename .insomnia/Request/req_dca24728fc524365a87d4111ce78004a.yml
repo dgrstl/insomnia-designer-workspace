@@ -1,0 +1,21 @@
+_id: req_dca24728fc524365a87d4111ce78004a
+authentication: {}
+body: {}
+created: 1576620684681
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1575659135378.5
+method: GET
+modified: 1578154163099
+name: Rate Limiting
+parameters: []
+parentId: fld_1fb0046cbcb9458d97dfe7d5a190f036
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/rateLimiting"

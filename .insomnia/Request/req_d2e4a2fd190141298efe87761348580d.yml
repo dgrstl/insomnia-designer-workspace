@@ -1,0 +1,21 @@
+_id: req_d2e4a2fd190141298efe87761348580d
+authentication: {}
+body: {}
+created: 1576678239772
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1576620025258.625
+method: GET
+modified: 1576678431255
+name: Advanced Transformation
+parameters: []
+parentId: fld_5aabc38431a04fc5a3c9bc8e18874237
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/transformerAdvanced/kong4ever"

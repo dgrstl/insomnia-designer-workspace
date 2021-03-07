@@ -1,0 +1,21 @@
+_id: req_20774d664f564e6d8732a8d6900dfa04
+authentication: {}
+body: {}
+created: 1576620627357
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1575979609108
+method: GET
+modified: 1576620632609
+name: Upstream
+parameters: []
+parentId: fld_1fb0046cbcb9458d97dfe7d5a190f036
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/upstream"

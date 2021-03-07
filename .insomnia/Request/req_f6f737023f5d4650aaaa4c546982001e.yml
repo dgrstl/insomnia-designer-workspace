@@ -1,0 +1,25 @@
+_id: req_f6f737023f5d4650aaaa4c546982001e
+authentication: {}
+body: {}
+created: 1581790151788
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1581790151788
+method: GET
+modified: 1589491593484
+name: Route
+parameters:
+  - description: ""
+    id: pair_52ae8f5ef674491fad6e7cd487384c42
+    name: anotherbadguy
+    value: wantsdata
+parentId: fld_4fd6727fccdd426c8f643f1525eb274a
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingFollowRedirects: global
+settingRebuildPath: false
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port }}/Kong"

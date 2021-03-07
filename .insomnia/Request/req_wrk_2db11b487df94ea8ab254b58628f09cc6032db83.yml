@@ -1,0 +1,33 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09cc6032db83
+authentication: {}
+body: {}
+created: 1588736633737
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+isPrivate: false
+metaSortKey: -1588736633737
+method: GET
+modified: 1591708170517
+name: List Routes for specified Service Name / Id
+parameters:
+  - disabled: true
+    name: offset
+    value: string
+  - disabled: true
+    name: size
+    value: "100"
+  - disabled: true
+    name: tags
+    value: string
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/services/{{ service_name_or_id }}/routes"

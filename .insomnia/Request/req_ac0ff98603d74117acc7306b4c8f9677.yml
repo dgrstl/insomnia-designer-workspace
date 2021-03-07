@@ -1,0 +1,25 @@
+_id: req_ac0ff98603d74117acc7306b4c8f9677
+authentication: {}
+body: {}
+created: 1588247746058
+description: ""
+headers:
+  - description: ""
+    id: pair_19423ac4ffe3427bae8913da8e43311e
+    name: Authorization
+    value: LDAP ZGVtbzpLb25nUnVsM3oh
+isPrivate: false
+metaSortKey: -1576256304462.6875
+method: GET
+modified: 1588247803378
+name: LDAP Auth
+parameters: []
+parentId: fld_15075dd1ceee4bf5829e9a276687a707
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/ldap"

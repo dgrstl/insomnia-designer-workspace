@@ -1,0 +1,10 @@
+_id: fld_44809aee9e684c92bf18b1593d1fa7fd
+created: 1579792920460
+description: Stats about traffic routed through Kong
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1576582409802.1406
+modified: 1579792965868
+name: Traffic Analytics
+parentId: fld_f023fc2ce66643f4aacf1629fba72d00
+type: RequestGroup

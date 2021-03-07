@@ -1,0 +1,33 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09cc03d00c00
+authentication: {}
+body: {}
+created: 1588736633687
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+isPrivate: false
+metaSortKey: -1588736633687
+method: GET
+modified: 1591708170284
+name: List Certificates
+parameters:
+  - disabled: true
+    name: offset
+    value: string
+  - disabled: true
+    name: size
+    value: "100"
+  - disabled: true
+    name: tags
+    value: string
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/certificates"

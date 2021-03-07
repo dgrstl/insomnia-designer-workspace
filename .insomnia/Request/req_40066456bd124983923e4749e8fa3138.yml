@@ -1,0 +1,25 @@
+_id: req_40066456bd124983923e4749e8fa3138
+authentication: {}
+body: {}
+created: 1582343818350
+description: ""
+headers:
+  - description: ""
+    id: pair_4b7da97a0aeb41f8979f43c647d295e0
+    name: apikey
+    value: ""
+isPrivate: false
+metaSortKey: -1581790151738
+method: GET
+modified: 1582343995598
+name: Key Auth - Dev
+parameters: []
+parentId: fld_4fd6727fccdd426c8f643f1525eb274a
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/keyAuth"

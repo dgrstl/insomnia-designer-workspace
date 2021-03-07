@@ -1,0 +1,21 @@
+_id: req_1d216cd2a4d842fdaa5bf1b40bf072d9
+authentication: {}
+body: {}
+created: 1576678499388
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1576619759604.4375
+method: GET
+modified: 1576678523182
+name: Transform Nothing
+parameters: []
+parentId: fld_5aabc38431a04fc5a3c9bc8e18874237
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/transformNothing"

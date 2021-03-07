@@ -1,0 +1,21 @@
+_id: req_1d3e5098ddc64634bf4eaf87946ba7a4
+authentication: {}
+body: {}
+created: 1576622981346
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1576616306100
+method: GET
+modified: 1576622998769
+name: Lambda
+parameters: []
+parentId: fld_be1a88a0db454554a0a698ac06c3f5ac
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/awsLambda"

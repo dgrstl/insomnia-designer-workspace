@@ -1,0 +1,31 @@
+_id: req_0007a181819b4bf2a0d10ace3f991ad4
+authentication: {}
+body: {}
+created: 1579792920463
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1575136011386
+method: GET
+modified: 1579793994768
+name: 3-Vitals-Consumer-StatusCodes
+parameters:
+  - disabled: false
+    id: pair_8f6b88d170e341d8afa69cd1e456b6f9
+    name: interval
+    value: minutes
+  - description: ""
+    id: pair_b064368321c24174a65054b290c6d09c
+    name: consumer_id
+    value: "{% response 'body', 'req_99c9260901de4baaada595497d9cf664',
+      'b64::JC5pZA==::46b', 'never' %}"
+parentId: fld_f8047fff0aa1462b8d4c37728bb83780
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{
+  admin_port  }}/vitals/status_codes/by_consumer_and_route"

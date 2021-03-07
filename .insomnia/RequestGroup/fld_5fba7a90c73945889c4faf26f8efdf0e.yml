@@ -1,0 +1,10 @@
+_id: fld_5fba7a90c73945889c4faf26f8efdf0e
+created: 1579792900545
+description: Stats about the health of a Kong cluster
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1576582409752.1406
+modified: 1579792945997
+name: Kong Health
+parentId: fld_f023fc2ce66643f4aacf1629fba72d00
+type: RequestGroup

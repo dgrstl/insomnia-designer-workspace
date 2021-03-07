@@ -1,0 +1,24 @@
+_id: req_67f3ba63208d4035a1454bf2c6cc68b1
+authentication: {}
+body: {}
+created: 1587310017605
+description: ""
+headers:
+  - id: pair_a1ba7e4c0816445f8766d1a7c52ff65b
+    name: authorization
+    value: Bearer GXrUt4eqRQFeOhLzC6ziOA69ISqKwKSH
+isPrivate: false
+metaSortKey: -1587309531790
+method: GET
+modified: 1587310034065
+name: App Call
+parameters: []
+parentId: fld_679b6ac0ab8a4c809ed5c48fbf839395
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: http://localhost:8000/httpbin/anything

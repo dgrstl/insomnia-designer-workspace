@@ -1,0 +1,25 @@
+_id: req_60cfe21ca13f4bfd8eb95c56977d25b1
+authentication:
+  disabled: false
+  password: KongRul3z!
+  type: basic
+  username: demo@apim.eu
+body: {}
+created: 1584739466355
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1584739392625
+method: GET
+modified: 1584739468227
+name: 1 - Get Token
+parameters: []
+parentId: fld_6524a6164c1748e3be14f6a31f0c826b
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/oidcKeycloak"

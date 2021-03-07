@@ -1,0 +1,26 @@
+_id: req_62ccb7fafabb4389a9cfca573aa018f3
+authentication: {}
+body: {}
+created: 1581989262767
+description: ""
+headers:
+  - description: ""
+    disabled: true
+    id: pair_040e8e0e86d040f5a90df43f1e34cfe0
+    name: ""
+    value: ""
+isPrivate: false
+metaSortKey: -1575458839272.5625
+method: GET
+modified: 1582035344286
+name: mTLS - Downstream - No Cert
+parameters: []
+parentId: fld_cb2003e20d5549acae06677939715cf1
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/mtls-auth"

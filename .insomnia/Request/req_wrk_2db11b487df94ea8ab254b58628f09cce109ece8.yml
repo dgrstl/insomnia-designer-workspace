@@ -1,0 +1,52 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09cce109ece8
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "tags": [
+        "string"
+      ],
+      "enabled": true,
+      "protocols": [
+        "string"
+      ],
+      "run_on": "first",
+      "config": {},
+      "consumer": {
+        "id": "string",
+        "name": "string"
+      },
+      "service": {
+        "id": "string",
+        "name": "string"
+      },
+      "route": {
+        "id": "string",
+        "name": "string"
+      },
+      "name": "string"
+    }
+created: 1588736633700
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1588736633700
+method: POST
+modified: 1591708170345
+name: Create Plugin
+parameters: []
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/plugins"

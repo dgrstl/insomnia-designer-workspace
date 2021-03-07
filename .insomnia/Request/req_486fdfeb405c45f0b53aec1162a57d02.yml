@@ -1,0 +1,30 @@
+_id: req_486fdfeb405c45f0b53aec1162a57d02
+authentication: {}
+body: {}
+created: 1579791234662
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1576582409652.1406
+method: GET
+modified: 1579793082962
+name: 2-Vitals-Service
+parameters:
+  - description: ""
+    id: pair_96f81745c6e946d6878ffef103cda76b
+    name: service_id
+    value: "{% response 'body', 'req_0531015b4a264907a551b1f052f42954',
+      'b64::JC5pZA==::46b', 'never' %}"
+  - description: ""
+    id: pair_76ab36e8d11046ab95ef44ab4dbbf163
+    name: interval
+    value: minutes
+parentId: fld_c488298fbe6845f68d784e667fdc5cae
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ admin_port  }}/vitals/status_codes/by_service"

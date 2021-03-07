@@ -1,0 +1,35 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09ccbd70a49e
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username": "string",
+      "custom_id": "string",
+      "tags": [
+        "string"
+      ]
+    }
+created: 1588736633706
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1588736633706
+method: PUT
+modified: 1591708170373
+name: Create or Update Consumer
+parameters: []
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/consumers/{{ consumer_name_or_id }}"

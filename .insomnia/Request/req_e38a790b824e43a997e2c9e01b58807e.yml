@@ -1,0 +1,21 @@
+_id: req_e38a790b824e43a997e2c9e01b58807e
+authentication: {}
+body: {}
+created: 1579968935971
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1579968935971
+method: GET
+modified: 1579968963033
+name: Admin Audit
+parameters: []
+parentId: fld_81bf1cb15e4442c2b19f5cf055a49c31
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ admin_port }}/status"

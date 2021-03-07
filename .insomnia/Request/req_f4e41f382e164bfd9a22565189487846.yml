@@ -1,0 +1,25 @@
+_id: req_f4e41f382e164bfd9a22565189487846
+authentication: {}
+body: {}
+created: 1576621484837
+description: ""
+headers:
+  - description: ""
+    id: pair_4b7da97a0aeb41f8979f43c647d295e0
+    name: apikey
+    value: ""
+isPrivate: false
+metaSortKey: -1576645011070
+method: GET
+modified: 1578154578291
+name: Key Auth - 401
+parameters: []
+parentId: fld_15075dd1ceee4bf5829e9a276687a707
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/keyAuth"

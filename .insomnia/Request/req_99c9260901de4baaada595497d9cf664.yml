@@ -1,0 +1,21 @@
+_id: req_99c9260901de4baaada595497d9cf664
+authentication: {}
+body: {}
+created: 1579793138678
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1575136011486
+method: GET
+modified: 1579793186494
+name: 1-Get-Consumer-ID
+parameters: []
+parentId: fld_f8047fff0aa1462b8d4c37728bb83780
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ admin_port  }}/consumers/basic"

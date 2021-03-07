@@ -1,0 +1,21 @@
+_id: req_24e414c7114849f4bf1ee5c587dae7db
+authentication: {}
+body: {}
+created: 1576623033570
+description: ""
+headers: []
+isPrivate: false
+metaSortKey: -1576618431333.5
+method: GET
+modified: 1576623040894
+name: Canary
+parameters: []
+parentId: fld_1fb0046cbcb9458d97dfe7d5a190f036
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/canary"

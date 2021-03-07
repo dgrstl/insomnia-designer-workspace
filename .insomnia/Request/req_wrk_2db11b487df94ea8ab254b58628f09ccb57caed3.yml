@@ -1,0 +1,38 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09ccb57caed3
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "tags": [
+        "string"
+      ],
+      "certificate": {
+        "id": "string",
+        "name": "string"
+      },
+      "name": "string"
+    }
+created: 1588736633669
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1588736633669
+method: POST
+modified: 1591708170258
+name: Create SNI
+parameters: []
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/snis"

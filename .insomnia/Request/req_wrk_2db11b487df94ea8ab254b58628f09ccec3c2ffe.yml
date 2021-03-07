@@ -1,0 +1,104 @@
+_id: req_wrk_2db11b487df94ea8ab254b58628f09ccec3c2ffe
+authentication: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "host_header": "string",
+      "algorithm": "round-robin",
+      "tags": [
+        "string"
+      ],
+      "healthchecks": {
+        "active": {
+          "https_verify_certificate": true,
+          "http_path": "/",
+          "timeout": 1,
+          "https_sni": "string",
+          "concurrency": 10,
+          "type": "http",
+          "unhealthy": {
+            "tcp_failures": 0,
+            "http_failures": 0,
+            "timeouts": 0,
+            "http_statuses": [
+              429,
+              404,
+              500,
+              501,
+              502,
+              503,
+              504,
+              505
+            ],
+            "interval": 0
+          },
+          "healthy": {
+            "http_statuses": [
+              200,
+              302
+            ],
+            "interval": 0,
+            "successes": 0
+          }
+        },
+        "passive": {
+          "type": "http",
+          "unhealthy": {
+            "tcp_failures": 0,
+            "http_failures": 0,
+            "timeouts": 0,
+            "http_statuses": [
+              429,
+              404,
+              500,
+              501,
+              502,
+              503,
+              504,
+              505
+            ],
+            "interval": 0
+          },
+          "healthy": {
+            "http_statuses": [
+              200,
+              302
+            ],
+            "interval": 0,
+            "successes": 0
+          }
+        }
+      },
+      "slots": 10000,
+      "hash_on_cookie": "string",
+      "hash_on_cookie_path": "/",
+      "hash_fallback_header": "string",
+      "hash_fallback": "none",
+      "hash_on_header": "string",
+      "hash_on": "none",
+      "name": "string"
+    }
+created: 1588736633651
+description: ""
+headers:
+  - disabled: false
+    name: Kong-Admin-Token
+    value: "{{ kongAdminToken }}"
+  - name: Content-Type
+    value: application/json
+isPrivate: false
+metaSortKey: -1588736633651
+method: PUT
+modified: 1591708170200
+name: Create Or Update Upstream
+parameters: []
+parentId: wrk_2db11b487df94ea8ab254b58628f09cc
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingFollowRedirects: global
+settingRebuildPath: true
+settingSendCookies: true
+settingStoreCookies: true
+type: Request
+url: "{{ base_url }}/upstreams/{{ upstream_name_or_id }}"

@@ -1,0 +1,26 @@
+_id: req_4f935ac7b909438487cb03e187b8bcca
+authentication: {}
+body: {}
+created: 1588247094639
+description: ""
+headers:
+  - description: ""
+    disabled: true
+    id: pair_12741fccc54b4c69b4aad0072de1186e
+    name: version
+    value: v2
+isPrivate: false
+metaSortKey: -1588247094640
+method: GET
+modified: 1588247195860
+name: Route-by-Header
+parameters: []
+parentId: fld_1fb0046cbcb9458d97dfe7d5a190f036
+settingDisableRenderRequestBody: false
+settingEncodeUrl: false
+settingFollowRedirects: global
+settingRebuildPath: false
+settingSendCookies: false
+settingStoreCookies: false
+type: Request
+url: "{{ scheme  }}{{ base_url  }}{{ proxy_port  }}/routeByHeader"
